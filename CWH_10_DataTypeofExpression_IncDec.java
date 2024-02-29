@@ -18,8 +18,19 @@ public class CWH_10_DataTypeofExpression_IncDec {
         f+d = double
         System.out.println(c);
          */
-
-        //Increment & Decrement Operator
         
+        //Increment & Decrement Operator
+        int i = 56;
+        //int b= i++;
+        // first b is assigned i then i is assigned b
+        int j =67;
+        int c= ++j;
+        //first j is incremented then j is assigned to c
+        System.out.println(i++);
+        //first use then increment
+        System.out.println(i);
+        System.out.println(++i);
+        //first increment then use
+        System.out.println(i);
     }
 }
