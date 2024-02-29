@@ -32,5 +32,10 @@ public class CWH_10_DataTypeofExpression_IncDec {
         System.out.println(++i);
         //first increment then use
         System.out.println(i);
+        int y = 7;
+       System.out.println(++y*8);
+        char CH ='a';
+         System.out.println(++CH); // a will increment into b
+            
     }
 }
